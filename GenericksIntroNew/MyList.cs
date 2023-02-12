@@ -16,7 +16,7 @@ namespace GenericksIntroNew
         public void Add(T item)
         {
             T[] tempArray = items;
-            items = new T[items.Length];
+            items = new T[items.Length+1];
             for (int i = 0; i < items.Length; i++)
             {
                 tempArray[i] = items[i];

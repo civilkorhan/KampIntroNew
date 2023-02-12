@@ -18,6 +18,12 @@ namespace KoleksiyonlarNew
             List<string> isimler2 = new List<string>();
             Console.WriteLine(isimler2.Count);
 
+            Dictionary<int, string> ogrenciler = new Dictionary<int, string>();
+            
+               
+            
+            
+
         }
     }
 }
