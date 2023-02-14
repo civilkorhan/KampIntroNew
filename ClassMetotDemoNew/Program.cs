@@ -12,20 +12,20 @@ namespace ClassMetotDemoNew
             musteri1.MusteriSoyismi = "DALMAZ";
             musteri1.MusteriNo = 4455;
             Musteri musteri2 = new Musteri();
-            musteri2.Id = 1122;
+            musteri2.Id = 1123;
             musteri2.MusteriIsmi = "Korhan";
             musteri2.MusteriSoyismi = "DALMAZ";
-            musteri2.MusteriNo = 4455;
+            musteri2.MusteriNo = 4456;
             Musteri musteri3 = new Musteri();
-            musteri3.Id = 1122;
+            musteri3.Id = 1124;
             musteri3.MusteriIsmi = "Furkan";
             musteri3.MusteriSoyismi = "DALMAZ";
-            musteri3.MusteriNo = 4455;
+            musteri3.MusteriNo = 4457;
             Musteri musteri4 = new Musteri();
-            musteri4.Id = 1122;
+            musteri4.Id = 1125;
             musteri4.MusteriIsmi = "Şevval";
             musteri4.MusteriSoyismi = "DALMAZ";
-            musteri4.MusteriNo = 4455;
+            musteri4.MusteriNo = 4458;
 
             MusteriManager musteriManager=new MusteriManager();
             musteriManager.Ekle(musteri1);
