@@ -8,11 +8,11 @@ namespace GamerProject
 {
     internal class OrderManager : IOrderService
     {
-        IKampanyaManager _kampanyaManager;
+        IKampanya _kampanya;
 
-        public OrderManager(IKampanyaManager kampanyaManager)
+        public OrderManager(IKampanya kampanya)
         {
-            this._kampanyaManager = kampanyaManager;
+            _kampanya = kampanya;
         }
 
         public void Order(Gamer gamer)

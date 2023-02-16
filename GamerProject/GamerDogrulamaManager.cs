@@ -14,7 +14,7 @@ namespace GamerProject
             {
                 return true;
             }
-            else 
+            else (
             {
                 return false;
             }

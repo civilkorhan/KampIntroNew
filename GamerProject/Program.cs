@@ -15,7 +15,9 @@ namespace GamerProject
             GamerManager gameManager = new GamerManager(new GamerDogrulamaManager());
             gameManager.Add(gamer1);
 
-            OrderManager orderManager = new OrderManager(new KampanyaManager());
+
+
+            OrderManager orderManager = new OrderManager(new Kampanya { Id = 11434, KampanyaName = "Yeni Kampanya", KampanyaNo = "1468" }); // Kampanya Class'ı OrderManager'e enjekte oldu.
             orderManager.Order(new Gamer { FirstName="FURKAN",LastName="DALMAZ",Id=123,IdentityNumber=12234}); // Burada instiance denklemin sadece sağ tarafı new kısmı kullanılarak gösterişmiştir
                                                                                                                // AMAÇ 2 ŞEKİLDE DE İNSTİANCE YAPILDIĞINI GÖSTERMEKTİR.     
         }
